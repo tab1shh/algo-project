@@ -1,1 +1,1 @@
-# algo-prokect
+# algo-project
