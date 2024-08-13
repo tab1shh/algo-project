@@ -24,6 +24,7 @@ def merge_sort(arr):
                 j += 1
             k += 1  # after placing the smaller element into arr[k], k is incremented to mvoe to the next position in the array
 
+        # if there any remaining elements in the left subarray, they are copied into arr, and this runs until all elements in left have been merged
         while i < len(left):
             arr[k] = left[i]
             i += 1

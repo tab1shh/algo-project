@@ -19,6 +19,6 @@ def quick_sort(arr, low=0, high=None):
     if low < high:
         # returns index 'pi' whihc is the correct position of the pivot in the sorted array
         pi = partition(arr, low, high)
-        quick_sort(arr, low, pi - 1)
-        quick_sort(arr, pi + 1, high)
+        quick_sort(arr, low, pi - 1) # recursivley called on the left subarray
+        quick_sort(arr, pi + 1, high) # recursivley called on the right subarray
     return arr
