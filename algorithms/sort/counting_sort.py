@@ -16,3 +16,21 @@ def counting_sort(arr):
             arr[i] = a  # 'a' is places at index 'i' in the original 'arr'
             i += 1  # move to the next position in 'arr'
     return arr
+
+
+def main():
+    # Test cases
+    arr1 = [4, 10, 3, 5, 1]
+    arr2 = [12, 11, 13, 5, 6, 7]
+
+    print("Original array 1:", arr1)
+    sorted_arr1 = counting_sort(arr1)
+    print("Sorted array 1:", sorted_arr1)
+
+    print("Original array 2:", arr2)
+    sorted_arr2 = counting_sort(arr2)
+    print("Sorted array 2:", sorted_arr2)
+
+
+if __name__ == "__main__":
+    main()

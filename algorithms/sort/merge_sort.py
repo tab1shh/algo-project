@@ -35,3 +35,21 @@ def merge_sort(arr):
             j += 1
             k += 1
     return arr
+
+
+def main():
+    # Test cases
+    arr1 = [4, 10, 3, 5, 1]
+    arr2 = [12, 11, 13, 5, 6, 7]
+
+    print("Original array 1:", arr1)
+    sorted_arr1 = merge_sort(arr1)
+    print("Sorted array 1:", sorted_arr1)
+
+    print("Original array 2:", arr2)
+    sorted_arr2 = merge_sort(arr2)
+    print("Sorted array 2:", sorted_arr2)
+
+
+if __name__ == "__main__":
+    main()
