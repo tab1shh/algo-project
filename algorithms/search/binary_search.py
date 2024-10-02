@@ -13,7 +13,7 @@ def binary_search(arr, target):
                 mid + 1
             )  # if target is on right half then it update the left index, narrowing the search to the right half of the array
         else:  # target must be on the left half of current range
-            right = mid + 1  # updates right to narrow search to left half of array
+            right = mid - 1  # updates right to narrow search to left half of array
     return -1
 
 
